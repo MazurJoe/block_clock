@@ -1,17 +1,18 @@
 #pragma once
 
-void digitalNumGenerator() {
-	char digitalZero[21][7];
-	char digitalOne[21][7];
-	char digitalTwo[21][7];
-	char digitalThree[21][7];
-	char digitalFour[21][7];
-	char digitalFive[21][7];
-	char digitalSix[21][7];
-	char digitalSeven[21][7];
-	char digitalEight[21][7];
-	char digitalNine[21][7];
+char digitalZero[21][7];
+char digitalOne[21][7];
+char digitalTwo[21][7];
+char digitalThree[21][7];
+char digitalFour[21][7];
+char digitalFive[21][7];
+char digitalSix[21][7];
+char digitalSeven[21][7];
+char digitalEight[21][7];
+char digitalNine[21][7];
 
+void digitalNumGenerator() {
+	
 	for (int i = 0; i < 21; i++) {
 		for (int j = 0; j < 7; j++) {
 			digitalZero[i][j] = '0';
